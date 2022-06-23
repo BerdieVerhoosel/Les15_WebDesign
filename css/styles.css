@@ -1,0 +1,166 @@
+.body {
+    font-family: Quicksand, sans-serif;
+    background-image: url("../img/background.jpg");
+    color: white;
+}
+
+/* ========= Header & Navigation ========= */
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav_button {
+    background: rgba(0,0,0,0.9);
+    opacity: 50%;
+    border: none;
+    margin: 2px;
+    height: 30px;
+    width: 100px;
+}
+
+.nav_button:hover {
+    background-color: white;
+}
+
+.header {
+    padding-left: 1%;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-bottom: 2px;
+}
+
+/* ========= Index: Main ========= */
+
+img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 20px;
+    padding-top:30px;
+    margin-bottom: 0px;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.main div{
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 4%;
+    padding-top: 10px;
+}
+
+.box-1 {
+    flex: 6;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.box-3 {
+    flex: 1;
+}
+
+
+/* ========= Mijn CV: Main ========= */
+
+td {
+    padding-right: 50px;
+}
+
+table {
+    padding-bottom: 10%;
+    padding-left: 10px;
+}
+
+.main_cv {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    width: auto;
+    margin-top: 15px;
+}
+
+/* ========= Contact: Main ========= */
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin: 15px 0px;
+}
+
+input {
+    border: none;
+    margin: 2px;
+    height: 30px;
+    width: 400px; 
+    font-family: Quicksand, sans-serif;
+}
+
+textarea {
+    height: 130px;
+    width: 400px;
+    font-family: Quicksand, sans-serif;
+}
+
+form {
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.title2 {
+   margin-left: 10px;
+}
+
+.send {
+    background: white;
+    opacity: 50%;
+    border: none;
+    margin: 2px;
+    height: 30px;
+    width: 100px;
+}
+
+.send:hover {
+    background-color: white;
+    opacity: 90%;
+}
+
+.send:active {
+    background: rgba(27,7,2249,0.9);
+    color: white;
+    opacity: 50%;
+    border: none;
+    margin: 2px;
+    height: 30px;
+    width: 100px;
+}
+
+/* ========= All Footers ========= */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 1%;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
